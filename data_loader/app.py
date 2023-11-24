@@ -1,5 +1,6 @@
 import requests
 from pymongo import MongoClient
+from py2neo import Graph, Node, NodeMatcher
 
 # Connect to MongoDB
 client = MongoClient('mongodb://mongo:27017/')
